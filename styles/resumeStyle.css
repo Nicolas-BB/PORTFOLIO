@@ -1,0 +1,45 @@
+.resumeSection {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+.downloadResumeButton {
+    width: fit-content;
+    height: fit-content;
+    background-color: var(--tertiary-color);
+    font-style: normal;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.resumeContainer {
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+    gap: 30px;
+}
+
+.resumeContainer h1 {
+    font: 60px arial;
+    font-weight: 700;
+    color: greenyellow;
+}
+
+.resumeContainer p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.imgProfile {
+    width: 250px;
+    border-radius: 100%;
+    border: 6px var(--tertiary-color) solid;
+}

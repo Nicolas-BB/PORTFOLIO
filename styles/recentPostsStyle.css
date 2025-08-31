@@ -1,0 +1,73 @@
+.recentPostsSection {
+    padding: 40px 10%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+}
+
+.recentPostsSectionContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recentPostsHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.viewAllRecentPosts {
+    color: var(--primary-color);
+}
+
+.recentPostsTitle {
+    color: white;
+    font-family: arial;
+    font-size: 26px;
+}
+
+.post {
+    width: 500px;
+    height: 300px;
+    border: 6px var(--tertiary-color) solid;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.postDate {
+    display: flex;
+    gap: 2%;
+}
+
+.post h2 {
+    color: var(--primary-color);
+    font-family: arial;
+    font-size: 35px;
+    height: 80px;
+}
+
+.post p {
+    color: white;
+    font-family: arial;
+}
+
+.post div {
+    display: flex;
+    gap: 20px;
+}
+
+.post div p {
+    font-weight: bold;
+}
+
+.postsContainer {
+    display: flex;
+    gap: 3%;
+}
