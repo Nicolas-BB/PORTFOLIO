@@ -1,0 +1,44 @@
+.featuredWorksSection {
+    padding: 40px 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.featuredWorkContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.featuredWorkImg {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.featuredWork {
+    display: flex;
+    gap: 20px;
+}
+
+.featuredWorkContentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.featuredWorkTagsContainer {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.featuredWorkDateTag {
+    padding: 3px 10px;
+    background-color: var(--tertiary-color);
+    border-radius: 40px;
+    font-weight: bold;
+}
