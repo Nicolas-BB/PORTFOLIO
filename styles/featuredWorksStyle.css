@@ -7,9 +7,10 @@
     gap: 20px;
 }
 
-.featuredWorkContainer {
+.featuredWorksContainer {
     display: flex;
     flex-direction: column;
+    gap: 20px;
 }
 
 .featuredWorkImg {
