@@ -13,18 +13,3 @@
 body {
     background-color: var(--secondary-color);
 }
-
-header {
-    display: flex;
-    background-color: var(--secondary-color);
-    justify-content: right;
-    gap: 60px;
-    padding: 40px;
-}
-
-header a {
-    font: 20px normal Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--primary-color);
-}
