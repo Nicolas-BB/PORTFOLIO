@@ -41,5 +41,4 @@
 .imgProfile {
     width: 250px;
     border-radius: 100%;
-    border: 6px var(--tertiary-color) solid;
 }
